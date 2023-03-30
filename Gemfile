@@ -77,3 +77,9 @@ end
 gem "devise", "~> 4.9"
 
 gem "devise-tailwindcssed", "~> 0.1.5"
+
+gem "dotenv-rails", "~> 2.8"
+
+gem "omniauth-google-oauth2", "~> 1.1"
+
+gem "omniauth-rails_csrf_protection", "~> 1.0"

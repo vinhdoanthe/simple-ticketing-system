@@ -39,3 +39,6 @@
 
 # RubyMine folder
 .idea
+
+# Environment variables
+.env
