@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  # namespace :users do
-  #   get 'omniauth_callbacks/google_auth2'
-  # end
+  namespace :client do
+    get 'tickets', to: 'tickets#list'
+    get 'tickets/:id/', to: 'tickets#show'
+    post 'tickets/:id/pick', to: 'tickets#pick'
+  end
+  devise_for :clients
   resources :ticket_categories
   resources :categories
   resources :tickets
