@@ -85,3 +85,7 @@ gem "omniauth-google-oauth2", "~> 1.1"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
 
 gem "pg", "~> 1.4"
+
+gem "omniauth-microsoft-office365", "~> 0.0.8"
+
+gem "view_component", "~> 2.82"

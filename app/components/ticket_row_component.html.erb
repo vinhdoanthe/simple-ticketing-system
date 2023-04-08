@@ -1,0 +1,20 @@
+<tr>
+  <td>
+    <%= link_to @ticket.id, @ticket  %>
+  </td>
+  <td>
+    <%= @ticket.title %>
+  </td>
+  <td>
+  <%= @ticket.description %>
+  </td>
+  <td>
+    <%= @ticket.status %>
+  </td>
+  <td>
+  <%= @ticket.priority %>
+  </td>
+  <td>
+    <%= @ticket.user.email %>
+  </td>
+</tr>

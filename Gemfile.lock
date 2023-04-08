@@ -171,6 +171,9 @@ GEM
       oauth2 (~> 2.0.6)
       omniauth (~> 2.0)
       omniauth-oauth2 (~> 1.8.0)
+    omniauth-microsoft-office365 (0.0.8)
+      omniauth
+      omniauth-oauth2
     omniauth-oauth2 (1.8.0)
       oauth2 (>= 1.4, < 3)
       omniauth (~> 2.0)
@@ -258,6 +261,10 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     version_gem (1.1.2)
+    view_component (2.82.0)
+      activesupport (>= 5.2.0, < 8.0)
+      concurrent-ruby (~> 1.0)
+      method_source (~> 1.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.2.0)
@@ -292,6 +299,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   omniauth-google-oauth2 (~> 1.1)
+  omniauth-microsoft-office365 (~> 0.0.8)
   omniauth-rails_csrf_protection (~> 1.0)
   pg (~> 1.4)
   puma (~> 5.0)
@@ -304,6 +312,7 @@ DEPENDENCIES
   tailwindcss-rails
   turbo-rails
   tzinfo-data
+  view_component (~> 2.82)
   web-console
   webdrivers
 
