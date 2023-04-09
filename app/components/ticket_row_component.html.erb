@@ -1,20 +1,8 @@
-<div class="flex flex-row mb-1">
-  <div class="w-1/3 px-4 py-2 bg-gray-100 text-gray-800">
-    <%= link_to @ticket.id, @ticket  %>
-  </div>
-  <div class="w-1/3 px-4 py-2 bg-gray-100 text-gray-800">
-    <%= @ticket.title %>
-  </div>
-  <div class="w-1/3 px-4 py-2 bg-gray-100 text-gray-800">
-    <%= @ticket.description %>
-  </div>
-  <div class="w-1/3 px-4 py-2 bg-gray-100 text-gray-800">
-    <%= @ticket.status %>
-  </div>
-  <div class="w-1/3 px-4 py-2 bg-gray-100 text-gray-800">
-    <%= @ticket.priority %>
-  </div>
-  <div class="w-1/3 px-4 py-2 bg-gray-100 text-gray-800">
-    <%= @ticket&.user&.email %>
-  </div>
+<div class="flex bg-white hover:bg-gray-100">
+    <%= link_to @ticket.id, @ticket, class: "w-1/6 block py-2 px-4 text-center text-blue-500" %>
+  <div class="w-1/6 py-2 px-4 text-center"><%= @ticket.title %></div>
+  <div class="w-1/6 py-2 px-4 text-center"><%= @ticket.description %></div>
+  <div class="w-1/6 py-2 px-4 text-center"><%= @ticket.status %></div>
+  <div class="w-1/6 py-2 px-4 text-center"><%= @ticket.priority %></div>
+  <a href="#" class="w-1/6 block py-2 px-4 text-center text-blue-500"><%= @ticket.user&.email %></a>
 </div>

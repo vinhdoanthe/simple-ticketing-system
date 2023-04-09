@@ -89,3 +89,5 @@ gem "pg", "~> 1.4"
 gem "omniauth-microsoft-office365", "~> 0.0.8"
 
 gem "view_component", "~> 2.82"
+
+gem "hotwire-livereload", "~> 1.2"
